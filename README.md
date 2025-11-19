@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+Projeto React Native – Em Desenvolvimento
+Este é o repositório do projeto React Native atualmente em desenvolvimento.
+Por motivos técnicos (computador com tela danificada), o progresso está temporariamente reduzido, mas o desenvolvimento continuará assim que possível.
+Este README foi criado para que qualquer pessoa que acompanhe o projeto possa entender:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📌 Como rodá-lo
+📌 Dependências necessárias
+📌 Versões compatíveis
+📌 Estado atual do desenvolvimento
+🚧 Estado Atual do Projeto
 
-## Get started
+O projeto já possui a estrutura base criada em React Native.
+As dependências foram instaladas, porém foram identificados avisos relacionados à versão do Node.js.
+A versão atual do Node instalada no ambiente é 20.16.0, mas o projeto exige >= 20.19.4.
+Próximo passo: atualizar o Node para a versão compatível e continuar o desenvolvimento das telas.
+Devido a problemas técnicos com o PC, a continuação do desenvolvimento dependerá de disponibilidade quando o equipamento estiver operacional novamente.
 
-1. Install dependencies
+ Tecnologias Utilizadas
+React Native 0.82+
+Node.js (requerido: >= 20.19.4)
+npm 
 
-   ```bash
-   npm install
-   ```
+⚙️ Requisitos
+Antes de rodar o projeto, você deve ter instalado:
+Node.js 20.19.4 ou superior
+👉 https://nodejs.org
+npm (instalado junto com o Node)
+Emulador Android ou dispositivo físico com Expo Go (se o projeto usar Expo)
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+Como Rodar o Projeto
+1. Instalar dependências
+npm install
+2. Verificar versão do Node
+node -v
+Se for inferior a 20.19.4, atualize.
+3. Executar no modo desenvolvimento
+Se for projeto com React Native CLI:
+npx react-native start
 
-In the output, you'll find options to open the app in a
+Rodar no Android:
+npx react-native run-android
+Rodar no iOS (macOS):
+npx react-native run-ios
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Se for um projeto com Expo:
+npx expo start
+Rodando no Celular
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Se o projeto for Expo:
+Instale o Expo Go no seu telefone.
+Execute:
+npx expo start
+Abra o QR code com o app Expo Go.
 
-## Get a fresh project
+❗ Avisos Importantes
+Atualmente o projeto exibe avisos do tipo:
+npm WARN EBADENGINE Unsupported engine
+Isso ocorre porque o React Native 0.82+ exige Node >= 20.19.4.
+Para corrigir, basta atualizar o Node.
 
-When you're ready, run:
+📅 Progresso e Atualizações
+Última atualização: (colocar a data de hoje)
+Desenvolvimento pausado temporariamente devido a falhas no equipamento (tela do computador).
+Assim que possível, o desenvolvimento será retomado para finalizar as telas e integrações.
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🤝 Contribuição
+Pull requests são bem-vindos.
+Sinta-se à vontade para abrir issues caso encontre erros ou queira sugerir melhorias.
